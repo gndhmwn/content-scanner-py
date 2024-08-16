@@ -10,7 +10,7 @@ def currentDateTime():
 
 def createLog(x,y):
     now = currentDateTime().replace(' ','_')
-    log = open(f'./result/{y}_{now}.log', 'a')
+    log = open(f'./result/{y}_{now}.txt', 'a')
     log.write(x)
 
 def checkContent(start_path='.'):
