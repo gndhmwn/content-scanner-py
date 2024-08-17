@@ -1,0 +1,16 @@
+/home/ninja/random/sourcecode/log/error.log ==> shell
+/home/ninja/random/sourcecode/log/error.log ==> exec
+/home/ninja/random/sourcecode/log/error.log ==> sex
+/home/ninja/random/sourcecode/log/error.log ==> ../
+/home/ninja/random/sourcecode/log/error.log ==> /../
+/home/ninja/random/sourcecode/log/requests.log ==> shell
+/home/ninja/random/sourcecode/log/requests.log ==> exec
+/home/ninja/random/sourcecode/log/requests.log ==> shell_exec
+/home/ninja/random/sourcecode/log/requests.log ==> eval
+/home/ninja/random/sourcecode/log/requests.log ==> slot
+/home/ninja/random/sourcecode/log/requests.log ==> gacor
+/home/ninja/random/sourcecode/log/requests.log ==> sex
+/home/ninja/random/sourcecode/log/requests.log ==> sexy
+/home/ninja/random/sourcecode/log/requests.log ==> hot
+/home/ninja/random/sourcecode/log/requests.log ==> ../
+/home/ninja/random/sourcecode/log/requests.log ==> /../

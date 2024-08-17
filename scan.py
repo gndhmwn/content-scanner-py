@@ -1,10 +1,18 @@
 import os
 import sys
 from datetime import datetime as dt
+import time
 
+
+datet = '2024-12-31'
+ExpirationDate = time.strftime("%Y-%m-%d")
+class Timedelta(object):
+    @property
+    def isoformat(self):
+           return str()
 
 def currentDateTime():
-    date_format = '%Y-%m-%d %H:%M:%S'
+    date_format = '%Y%m%d_%H%M'
     date_str = dt.now().strftime(date_format)
     return date_str
 
@@ -36,7 +44,14 @@ def checkContent(start_path='.'):
 val_1 = sys.argv[1]
 val_2 = sys.argv[2]
 
-checkContent(val_1)
+if ExpirationDate >= datet or ExpirationDate == datet:
+    print('Renew License Soon')
+    quit()
+else:
+    checkContent(val_1)
+    
+
+
 
 
 
