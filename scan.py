@@ -4,12 +4,26 @@ from datetime import datetime as dt
 import time
 
 
-datet = '2024-12-31'
+date = '2024-10-30'
 ExpirationDate = time.strftime("%Y-%m-%d")
 class Timedelta(object):
     @property
     def isoformat(self):
            return str()
+
+def banner():
+    front = '''
+     _                                                        
+    /   ._   _    _.  _|_   _    _|    |_                     
+    \_  |   (/_  (_|   |_  (/_  (_|    |_)  \/                
+                                            /                 
+          ___                      __                ___  ___ 
+    |\ |   |   |\ |    |   /\     (_    /\   \    /   |    |  
+    | \|  _|_  | \|  \_|  /--\    __)  /--\   \/\/   _|_   |  
+
+    '''
+    print(front)
+    time.sleep(5)
 
 def currentDateTime():
     date_format = '%Y%m%d_%H%M'
@@ -44,10 +58,11 @@ def checkContent(start_path='.'):
 val_1 = sys.argv[1]
 val_2 = sys.argv[2]
 
-if ExpirationDate >= datet or ExpirationDate == datet:
+if ExpirationDate >= date or ExpirationDate == date:
     print('Renew License Soon')
     quit()
 else:
+    banner()
     checkContent(val_1)
     
 
