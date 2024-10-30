@@ -23,7 +23,7 @@ def banner():
 
     '''
     print(front)
-    time.sleep(5)
+    time.sleep(3)
 
 def currentDateTime():
     date_format = '%Y%m%d_%H%M'
